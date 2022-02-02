@@ -6,8 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.altsystem.customerregistration.entities.Customers;
 
 @Repository
-public interface CustomersRepository extends CrudRepository<Customers, Long>{
-
-	
+public interface CustomersRepository extends CrudRepository<Customers, Long>{	
 	
 }
